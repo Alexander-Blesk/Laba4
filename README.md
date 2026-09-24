@@ -31,7 +31,8 @@ res = (A % 2 == 0) && (B % 2 == 0);
 6. Конец
 
 # Блок-схема 
-<img width="502" height="765" alt="image" src="https://github.com/user-attachments/assets/d9001d2e-3d1f-4642-82d6-fdab7b7e35fa" />
+<img width="526" height="758" alt="image" src="https://github.com/user-attachments/assets/4bcbe98b-0359-49fd-b716-08655ad51297" />
+
 
 
 # Реализация программы
