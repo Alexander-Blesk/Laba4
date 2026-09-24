@@ -1,17 +1,13 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <locale.h>
-
 int main() {
 	setlocale(LC_CTYPE, "RUS");
-	int A, B;
-	printf("Введите число А: \n");
-	scanf_s("%d", &A);
-	printf("Введите число В: \n");
-	scanf_s("%d", &B);
-	if ((A % 2 == 0) && (B % 2 == 0)){
-		printf("Всё в порядке! Оба числа четные!");
-	}
-		else {
-			printf("Сирена!!! Одно из чисел или оба они нечетны\n");
-	}
+	int A, B, res;
+	printf("=== РЎРРЎРўР•РњРђ РљРћРќРўР РћР›РЇ Р”РћРЎРўРЈРџРђ ===\n");
+	printf("Р’РІРµРґРёС‚Рµ РґРІР° С†РµР»С‹С… С‡РёСЃР»Р°: ");
+	scanf("%d %d", &A, &B);
+	res = (A % 2 == 0) && (B % 2 == 0);
+	printf("Р”РѕСЃС‚СѓРї СЂР°Р·СЂРµС€РµРЅ (1 - РґР° , 0 - РЅРµС‚): %d\n", res);
+	return 0;
 }
